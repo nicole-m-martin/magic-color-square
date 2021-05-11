@@ -1,13 +1,13 @@
 import React from 'react';
 
-const MagicBox = ({ startColor }) => {
+const MagicBox = ({ boxColor }) => {
   return (
     <div
       style={{
         height: '500px',
         width: '500px',
-        border: 'solid 1px #0000',
-        background: 'black',
+        border: 'solid 1px black',
+        background: boxColor,
       }}
     >
       HELLO WORLD
