@@ -7,6 +7,7 @@ const MagicBox = ({ startColor }) => {
         height: '500px',
         width: '500px',
         border: 'solid 1px #0000',
+        background: 'black',
       }}
     >
       HELLO WORLD
