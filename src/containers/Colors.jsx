@@ -7,8 +7,6 @@ export default class Colors extends Component {
     watermelonColors: ['#ee6055', '#60d394', '#aaf683', '#ffd97d', '#ff9b85'],
   };
 
-  // watermelonColors = ['#ee6055', '#60d394', '#aaf683', '#ffd97d', '#ff9b85'];
-
   // color change function
   randomColors = (watermelonColors) => {
     return watermelonColors[
@@ -25,7 +23,7 @@ export default class Colors extends Component {
       this.setState({ boxColor: newColor });
     }, 1000);
   }
-  a;
+
   render() {
     const { boxColor } = this.state;
     return (
