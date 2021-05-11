@@ -1,5 +1,6 @@
 import React from 'react';
+import Colors from '../../containers/Colors';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <Colors />;
 }
